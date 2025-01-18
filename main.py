@@ -9,7 +9,8 @@ def main() -> None:
     Main function to demonstrate the string operations.
     """
     test_string: str = "hello world"
-    
+    print("Hi! PARIS")
+
     print(f"Original string: {test_string}")
     print(f"Reversed: {reverse_string(test_string)}")
     print(f"Vowel count: {count_vowels(test_string)}")
